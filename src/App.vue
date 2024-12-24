@@ -18,7 +18,7 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
 
-import { account, ID } from './lib/appwrtie'
+import { account, ID } from './lib/appwrite'
 import type { Models } from 'appwrite'
 
 const loggedInUser = ref<Models.User<Models.Preferences> | null>(null)
